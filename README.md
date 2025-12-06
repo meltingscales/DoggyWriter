@@ -1,5 +1,8 @@
 # DoggyWriter
 
+[![Crates.io](https://img.shields.io/crates/v/doggywriter.svg)](https://crates.io/crates/doggywriter)
+[![License](https://img.shields.io/crates/l/doggywriter.svg)](https://github.com/meltingscales/DoggyWriter#license)
+
 A minimal writing app that helps you avoid analysis paralysis by keeping you focused on writing forward.
 
 ## What is DoggyWriter?
@@ -16,17 +19,22 @@ DoggyWriter is a terminal-based writing tool that shows you only 2 lines at a ti
 
 ## Installation
 
-### Prerequisites
+### Install from Crates.io (Recommended)
 
-- [Rust](https://rustup.rs/) (install with `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`)
-- [just](https://github.com/casey/just) (optional, for easier commands)
+The easiest way to install DoggyWriter:
+
+```bash
+cargo install doggywriter
+```
+
+This requires [Rust](https://rustup.rs/) to be installed.
 
 ### Install from Source
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/doggywriter
-cd doggywriter
+git clone https://github.com/meltingscales/DoggyWriter
+cd DoggyWriter
 
 # Install locally (puts binary in ~/.cargo/bin/)
 just install
