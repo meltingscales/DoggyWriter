@@ -2,10 +2,9 @@
 name = "doggywriter"
 version = "0.1.0"
 edition = "2021"
-authors = ["Your Name <your.email@example.com>"]
+authors = ["meltingscales <henryfbp@gmail.com>"]
 description = "A minimal writing app that helps you avoid analysis paralysis"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/yourusername/doggywriter"
 keywords = ["writing", "editor", "tui", "productivity"]
 categories = ["command-line-utilities", "text-editors"]
 
